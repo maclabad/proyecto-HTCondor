@@ -1,0 +1,11 @@
+Universe           = vanilla
+Executable          = encr2
+Log              = encr.log
+input            =cuento4.txt
+Output            = prueba3.txt
+Error             = encr$(Process).error
+should_transfer_files  = YES
+when_to_transfer_output = ON_EXIT
+Transfer_Input_Files = cuento4.txt
+Requirements    = UidDomain=="cloud.univalle.edu.co"
+Queue
